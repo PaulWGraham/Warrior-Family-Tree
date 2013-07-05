@@ -1,0 +1,20 @@
+-- Copyright (c) 2013 Paul Graham 
+-- See LICENSE for details.
+
+-- The Connectable Protocol
+--
+-- For an object to conform to the Connectable Protocol it must have the following:
+--
+-- Functions:
+--      getIncomingConnectionPoints() - Returns a 2 dimensional table of incoming connection
+--                                      points. The returned table uses the type of connection point
+--                                      as a key. The value associated (if any) with that key is a
+--                                      numerically indexed table whose keys start at 1. Each entry
+--                                      in the numerically indexed table is a point in world space
+--                                      that indicates the location of a connection point.
+--      getOutgoingConnectionPoints() - Returns a 2 dimensional table of outgoing connection points.
+--                                      The returned table uses the type of connection point as a
+--                                      key. The value associated (if any) with that key is a
+--                                      numerically indexed table whose keys start at 1. Each entry
+--                                      in the numerically indexed table is a point in world space
+--                                      that indicates the location of a connection point.
