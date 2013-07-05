@@ -44,7 +44,7 @@ main.lua - All of the MOAI specific code is stuffed here. The most interesting b
 ## Copyright ##
 Copyright (c) 2013 Paul Graham 
 
-The MOAI SDK and the contents of Attribution are  are Copyright Zipline Games and are subject to a license issued by Zipline Games. All material in this git repository Copyright Paul Graham is subject to a version of the MIT License.
+The MOAI SDK and the contents of the Attribution folder are Copyright Zipline Games and are subject to a license issued by Zipline Games. All material in this git repository Copyright Paul Graham is subject to a version of the MIT License.
 
 See LICENSE for details.
 
