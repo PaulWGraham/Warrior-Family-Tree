@@ -20,7 +20,7 @@ It displays an example family tree that is loaded from a specially prepared file
  1. Install the MOAI SDK ([http://getmoai.com][moai])
  2. [Download][zip] the file repository.
  3. Open the folder containing the repository files.
- 4. Change config.lua to suit your installation of MOAI
+ 4. Change run.sh to suit your installation of MOAI
  5. Run run.sh
 
 ## Files/Folders ##
