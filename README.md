@@ -31,10 +31,7 @@ Attribution - This folder contains images that are used as splash-screens to sat
 
 Data - This folder holds the JSON file that stores data that is turned into a family tree. 
 
-Library - This is where the interesting bits of the program are stored. The two most interesting files are:
- AdjacencyMatrix.lua - A module that deals with the creation and manipulation of adjacency matrices.
- 
- Node.lua - A module that deals with the creation and manipulation of Nodes. Nodes are used in the process of displaying the family tree.
+Library - This is where the interesting bits of the program are stored. The two most interesting files are: AdjacencyMatrix.lua - A module that deals with the creation and manipulation of adjacency matrices; Node.lua - A module that deals with the creation and manipulation of Nodes. Nodes are used in the process of displaying the family tree.
 
 Tests - Contains unit tests that test the modules contained in Library.
 
