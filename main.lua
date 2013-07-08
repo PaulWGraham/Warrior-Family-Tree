@@ -479,7 +479,7 @@ function main()
 
 	end
 
-	Node.setPlacementOfNodes(nodeTable, 0, 300)
+	Node.setPlacementOfNodes(nodeTable, 0, 200)
 
 	for index, prop in pairs(props) do
 		warriorLayer:insertProp(prop)

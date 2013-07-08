@@ -87,7 +87,7 @@ function setPlacementOfNodes(nodes, centerOfFirstRowX, centerOfFirstRowY)
 	-- The first row is a special case as its position is determined the parameters 
 	-- centerOfFirstRowX, centerOfFirstRowY not by the position of the previous row. This is
 	-- accounted for by faking a previous row by setting currentYOffset accordingly.
-	currentYOffset = centerOfFirstRowY - .5 * dimensionsOfRows[1]["height"]
+	currentYOffset = centerOfFirstRowY + .5 * dimensionsOfRows[1]["height"]
 
 	-- Set the position of the individual nodes.
 	for indexOfRow, row in ipairs(nodes) do
