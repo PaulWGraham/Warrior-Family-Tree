@@ -71,7 +71,7 @@ function setPlacementOfNodes(nodes, centerOfFirstRowX, centerOfFirstRowY)
 
 	-- Find the width and height of each row for use when calculating the individual node position.
 	for indexOfRow, row in ipairs(nodes) do
-		currentMaxHeightOfNodeInRow = 0
+		currentMaxHeightOfNodesInRow = 0
 		currentWidthOfRow = 0
 		for indexOfNode, node in ipairs(row) do
 			currentWidthOfRow = currentWidthOfRow + node:getWidth()
